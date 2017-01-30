@@ -24,6 +24,7 @@
 		2CEBC13C1E3DAC3300617373 /* SecondTableTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CEBC13B1E3DAC3300617373 /* SecondTableTableViewController.swift */; };
 		95FDF555798A975CE1DECD59 /* Pods_App_mini_challenge.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E87709928C4181D49548238D /* Pods_App_mini_challenge.framework */; };
 		AF2936E0F8C8C08FE6DA3500 /* Pods_App_mini_challengeUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE591A8BE64CEA9D735C104D /* Pods_App_mini_challengeUITests.framework */; };
+		B4099E7F1E3F47AA00AB566F /* AlamofireTestVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4099E7E1E3F47AA00AB566F /* AlamofireTestVC.swift */; };
 		B43CFD9D1E3B43EA007B0DFA /* ObtainLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = B43CFD9C1E3B43EA007B0DFA /* ObtainLocation.swift */; };
 		B43CFDA01E3B43F6007B0DFA /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B43CFD9F1E3B43F6007B0DFA /* MapKit.framework */; };
 		B4D3B4EA1E39ED0A004FF175 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4D3B4E91E39ED0A004FF175 /* AppDelegate.swift */; };
@@ -92,6 +93,7 @@
 		714834B97A92AECD4DDF9107 /* Pods_App_mini_challengeTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_App_mini_challengeTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7D8D7BE4B80B7335691163FB /* Pods-App mini challengeUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-App mini challengeUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-App mini challengeUITests/Pods-App mini challengeUITests.release.xcconfig"; sourceTree = "<group>"; };
 		9402685B2968CF1BAD9A9BB6 /* Pods-App mini challenge.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-App mini challenge.release.xcconfig"; path = "Pods/Target Support Files/Pods-App mini challenge/Pods-App mini challenge.release.xcconfig"; sourceTree = "<group>"; };
+		B4099E7E1E3F47AA00AB566F /* AlamofireTestVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlamofireTestVC.swift; sourceTree = "<group>"; };
 		B43CFD9C1E3B43EA007B0DFA /* ObtainLocation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ObtainLocation.swift; sourceTree = "<group>"; };
 		B43CFD9F1E3B43F6007B0DFA /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		B4D3B4E61E39ED0A004FF175 /* App mini challenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "App mini challenge.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -173,6 +175,7 @@
 				2CEBC1361E3D759200617373 /* OnboardingView.swift */,
 				2CEBC1341E3D741600617373 /* OnBoardViewController.swift */,
 				2CEBC13B1E3DAC3300617373 /* SecondTableTableViewController.swift */,
+				B4099E7E1E3F47AA00AB566F /* AlamofireTestVC.swift */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -582,6 +585,7 @@
 				B4D3B4F21E39ED0A004FF175 /* App_mini_challenge.xcdatamodeld in Sources */,
 				B4D3B4EC1E39ED0A004FF175 /* ViewController.swift in Sources */,
 				B4D3B4EA1E39ED0A004FF175 /* AppDelegate.swift in Sources */,
+				B4099E7F1E3F47AA00AB566F /* AlamofireTestVC.swift in Sources */,
 				B43CFD9D1E3B43EA007B0DFA /* ObtainLocation.swift in Sources */,
 				2C58A4711E3D0E8F00CBB583 /* PadViewController.swift in Sources */,
 				2CEBC1371E3D759200617373 /* OnboardingView.swift in Sources */,

@@ -22,12 +22,12 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         window = UIWindow(frame: UIScreen.main.bounds)
         
         let sb = UIStoryboard(name: "Main", bundle: nil)
-        var initialViewController = sb.instantiateViewController(withIdentifier: "Onboarding")
+        var initialViewController = sb.instantiateViewController(withIdentifier: "AlamofireTest")
         
         let userDefaults = UserDefaults.standard
         
         if userDefaults.bool(forKey: "onboardingComplete") {
-            initialViewController = sb.instantiateViewController(withIdentifier: "Mainapp")
+            initialViewController = sb.instantiateViewController(withIdentifier: "AlamofireTest")
         }
         
         
