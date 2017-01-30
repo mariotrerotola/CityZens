@@ -9,6 +9,14 @@
 import UIKit
 
 class MarketTableViewController: UITableViewController {
+    
+    let marketData = ["Simply", "Walmart", "Target"]
+    let marketAddress = ["Maple Street", "Mahogany Street", "Jandali Street"]
+
+    
+    let identities = ["a", "b"]
+    
+    @IBOutlet weak var marketImage: UIImageView!
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -29,23 +37,41 @@ class MarketTableViewController: UITableViewController {
 
     override func numberOfSections(in tableView: UITableView) -> Int {
         // #warning Incomplete implementation, return the number of sections
-        return 0
+        return 1
     }
 
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         // #warning Incomplete implementation, return the number of rows
-        return 0
+        return marketData.count
     }
 
-    /*
+    
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "reuseIdentifier", for: indexPath)
-
-        // Configure the cell...
-
+    
+        cell.backgroundColor = UIColor.clear
+        
+        
+        let current = marketData[indexPath.row]
+          cell.textLabel?.text = current
+        
+        let detail = marketAddress[indexPath.row]
+        
+        cell.detailTextLabel?.text = detail
+      
         return cell
     }
-    */
+    
+    override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        
+        let vcName = identities[indexPath.row]
+        
+        let viewController = storyboard?.instantiateViewController(withIdentifier: vcName)
+        
+        self.navigationController?.pushViewController(viewController!, animated: true)
+        
+        
+    }
 
     /*
     // Override to support conditional editing of the table view.

@@ -7,6 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2C58A4691E3C20A200CBB583 /* PadTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C58A4681E3C20A200CBB583 /* PadTableViewController.swift */; };
+		2C58A46B1E3C2AC300CBB583 /* introback.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2C58A46A1E3C2AC300CBB583 /* introback.jpg */; };
+		2C58A46D1E3D0A2500CBB583 /* SelectItemsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C58A46C1E3D0A2500CBB583 /* SelectItemsViewController.swift */; };
+		2C58A46F1E3D0C6C00CBB583 /* CheckoutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C58A46E1E3D0C6C00CBB583 /* CheckoutViewController.swift */; };
+		2C58A4711E3D0E8F00CBB583 /* PadViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C58A4701E3D0E8F00CBB583 /* PadViewController.swift */; };
+		2CEA42B01E3C18AF003E60BF /* giphy.gif in Resources */ = {isa = PBXBuildFile; fileRef = 2CEA42AF1E3C18AF003E60BF /* giphy.gif */; };
+		2CEBC12B1E3D188900617373 /* OrderSummaryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CEBC12A1E3D188900617373 /* OrderSummaryViewController.swift */; };
+		2CEBC12D1E3D1BA300617373 /* CircularTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CEBC12C1E3D1BA300617373 /* CircularTransition.swift */; };
+		2CEBC12F1E3D662300617373 /* Pulsing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CEBC12E1E3D662300617373 /* Pulsing.swift */; };
+		2CEBC1331E3D73E300617373 /* onboardicons in Resources */ = {isa = PBXBuildFile; fileRef = 2CEBC1321E3D73E300617373 /* onboardicons */; };
+		2CEBC1351E3D741600617373 /* OnBoardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CEBC1341E3D741600617373 /* OnBoardViewController.swift */; };
+		2CEBC1371E3D759200617373 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CEBC1361E3D759200617373 /* OnboardingView.swift */; };
+		2CEBC1381E3D7AE100617373 /* PaperOnboarding.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CEBC1301E3D73B900617373 /* PaperOnboarding.framework */; };
+		2CEBC1391E3D7AE100617373 /* PaperOnboarding.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 2CEBC1301E3D73B900617373 /* PaperOnboarding.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		2CEBC13C1E3DAC3300617373 /* SecondTableTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CEBC13B1E3DAC3300617373 /* SecondTableTableViewController.swift */; };
 		B43CFD9D1E3B43EA007B0DFA /* ObtainLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = B43CFD9C1E3B43EA007B0DFA /* ObtainLocation.swift */; };
 		B43CFDA01E3B43F6007B0DFA /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B43CFD9F1E3B43F6007B0DFA /* MapKit.framework */; };
 		B4D3B4EA1E39ED0A004FF175 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4D3B4E91E39ED0A004FF175 /* AppDelegate.swift */; };
@@ -40,7 +55,35 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		2CEBC13A1E3D7AE100617373 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				2CEBC1391E3D7AE100617373 /* PaperOnboarding.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		2C58A4681E3C20A200CBB583 /* PadTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PadTableViewController.swift; sourceTree = "<group>"; };
+		2C58A46A1E3C2AC300CBB583 /* introback.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = introback.jpg; sourceTree = "<group>"; };
+		2C58A46C1E3D0A2500CBB583 /* SelectItemsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectItemsViewController.swift; sourceTree = "<group>"; };
+		2C58A46E1E3D0C6C00CBB583 /* CheckoutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CheckoutViewController.swift; sourceTree = "<group>"; };
+		2C58A4701E3D0E8F00CBB583 /* PadViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PadViewController.swift; sourceTree = "<group>"; };
+		2CEA42AF1E3C18AF003E60BF /* giphy.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = giphy.gif; sourceTree = "<group>"; };
+		2CEBC12A1E3D188900617373 /* OrderSummaryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OrderSummaryViewController.swift; sourceTree = "<group>"; };
+		2CEBC12C1E3D1BA300617373 /* CircularTransition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircularTransition.swift; sourceTree = "<group>"; };
+		2CEBC12E1E3D662300617373 /* Pulsing.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Pulsing.swift; sourceTree = "<group>"; };
+		2CEBC1301E3D73B900617373 /* PaperOnboarding.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = PaperOnboarding.framework; sourceTree = "<group>"; };
+		2CEBC1321E3D73E300617373 /* onboardicons */ = {isa = PBXFileReference; lastKnownFileType = folder; path = onboardicons; sourceTree = "<group>"; };
+		2CEBC1341E3D741600617373 /* OnBoardViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OnBoardViewController.swift; sourceTree = "<group>"; };
+		2CEBC1361E3D759200617373 /* OnboardingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		2CEBC13B1E3DAC3300617373 /* SecondTableTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondTableTableViewController.swift; sourceTree = "<group>"; };
 		B43CFD9C1E3B43EA007B0DFA /* ObtainLocation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ObtainLocation.swift; sourceTree = "<group>"; };
 		B43CFD9F1E3B43F6007B0DFA /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		B4D3B4E61E39ED0A004FF175 /* App mini challenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "App mini challenge.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -68,6 +111,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2CEBC1381E3D7AE100617373 /* PaperOnboarding.framework in Frameworks */,
 				B43CFDA01E3B43F6007B0DFA /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -89,6 +133,56 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2CEA42A91E3C13EF003E60BF /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B4D3B4ED1E39ED0A004FF175 /* Main.storyboard */,
+				B4D3B5201E39FC82004FF175 /* Marketcell.xib */,
+				B4D3B4F51E39ED0A004FF175 /* LaunchScreen.storyboard */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		2CEA42AA1E3C13FC003E60BF /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				B4D3B51A1E39ED44004FF175 /* ProductCollectionViewController.swift */,
+				B4D3B51C1E39ED9B004FF175 /* MarketTableViewController.swift */,
+				B4D3B51E1E39EDC9004FF175 /* CategoryCollectionViewController.swift */,
+				B4D3B4EB1E39ED0A004FF175 /* ViewController.swift */,
+				2C58A4681E3C20A200CBB583 /* PadTableViewController.swift */,
+				2C58A46C1E3D0A2500CBB583 /* SelectItemsViewController.swift */,
+				2C58A46E1E3D0C6C00CBB583 /* CheckoutViewController.swift */,
+				2C58A4701E3D0E8F00CBB583 /* PadViewController.swift */,
+				2CEBC12A1E3D188900617373 /* OrderSummaryViewController.swift */,
+				2CEBC1361E3D759200617373 /* OnboardingView.swift */,
+				2CEBC1341E3D741600617373 /* OnBoardViewController.swift */,
+				2CEBC13B1E3DAC3300617373 /* SecondTableTableViewController.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		2CEA42AB1E3C140A003E60BF /* Supporting  */ = {
+			isa = PBXGroup;
+			children = (
+				B4D3B4E91E39ED0A004FF175 /* AppDelegate.swift */,
+				B4D3B4F31E39ED0A004FF175 /* Assets.xcassets */,
+				B4D3B4F81E39ED0A004FF175 /* Info.plist */,
+			);
+			name = "Supporting ";
+			sourceTree = "<group>";
+		};
+		2CEA42AC1E3C1432003E60BF /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				B4D3B4F01E39ED0A004FF175 /* App_mini_challenge.xcdatamodeld */,
+				2CEBC12C1E3D1BA300617373 /* CircularTransition.swift */,
+				B43CFD9C1E3B43EA007B0DFA /* ObtainLocation.swift */,
+				2CEBC12E1E3D662300617373 /* Pulsing.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
 		B43CFD9E1E3B43F6007B0DFA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -100,6 +194,7 @@
 		B4D3B4DD1E39ED0A004FF175 = {
 			isa = PBXGroup;
 			children = (
+				2CEBC1301E3D73B900617373 /* PaperOnboarding.framework */,
 				B4D3B4E81E39ED0A004FF175 /* App mini challenge */,
 				B4D3B5001E39ED0A004FF175 /* App mini challengeTests */,
 				B4D3B50B1E39ED0A004FF175 /* App mini challengeUITests */,
@@ -121,18 +216,13 @@
 		B4D3B4E81E39ED0A004FF175 /* App mini challenge */ = {
 			isa = PBXGroup;
 			children = (
-				B4D3B4E91E39ED0A004FF175 /* AppDelegate.swift */,
-				B4D3B51A1E39ED44004FF175 /* ProductCollectionViewController.swift */,
-				B4D3B51C1E39ED9B004FF175 /* MarketTableViewController.swift */,
-				B4D3B51E1E39EDC9004FF175 /* CategoryCollectionViewController.swift */,
-				B4D3B4EB1E39ED0A004FF175 /* ViewController.swift */,
-				B4D3B4ED1E39ED0A004FF175 /* Main.storyboard */,
-				B4D3B5201E39FC82004FF175 /* Marketcell.xib */,
-				B4D3B4F31E39ED0A004FF175 /* Assets.xcassets */,
-				B4D3B4F51E39ED0A004FF175 /* LaunchScreen.storyboard */,
-				B4D3B4F81E39ED0A004FF175 /* Info.plist */,
-				B4D3B4F01E39ED0A004FF175 /* App_mini_challenge.xcdatamodeld */,
-				B43CFD9C1E3B43EA007B0DFA /* ObtainLocation.swift */,
+				2C58A46A1E3C2AC300CBB583 /* introback.jpg */,
+				2CEA42AF1E3C18AF003E60BF /* giphy.gif */,
+				2CEBC1321E3D73E300617373 /* onboardicons */,
+				2CEA42AC1E3C1432003E60BF /* Models */,
+				2CEA42A91E3C13EF003E60BF /* View */,
+				2CEA42AA1E3C13FC003E60BF /* Controllers */,
+				2CEA42AB1E3C140A003E60BF /* Supporting  */,
 			);
 			path = "App mini challenge";
 			sourceTree = "<group>";
@@ -165,6 +255,7 @@
 				B4D3B4E21E39ED0A004FF175 /* Sources */,
 				B4D3B4E31E39ED0A004FF175 /* Frameworks */,
 				B4D3B4E41E39ED0A004FF175 /* Resources */,
+				2CEBC13A1E3D7AE100617373 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -223,7 +314,7 @@
 				TargetAttributes = {
 					B4D3B4E51E39ED0A004FF175 = {
 						CreatedOnToolsVersion = 8.2.1;
-						DevelopmentTeam = 48L4492JUG;
+						DevelopmentTeam = L7RH25GYY8;
 						ProvisioningStyle = Automatic;
 						SystemCapabilities = {
 							com.apple.Maps.iOS = {
@@ -270,9 +361,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2CEA42B01E3C18AF003E60BF /* giphy.gif in Resources */,
 				B4D3B4F71E39ED0A004FF175 /* LaunchScreen.storyboard in Resources */,
 				B4D3B5211E39FC82004FF175 /* Marketcell.xib in Resources */,
+				2CEBC1331E3D73E300617373 /* onboardicons in Resources */,
 				B4D3B4F41E39ED0A004FF175 /* Assets.xcassets in Resources */,
+				2C58A46B1E3C2AC300CBB583 /* introback.jpg in Resources */,
 				B4D3B4EF1E39ED0A004FF175 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -298,13 +392,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2CEBC12F1E3D662300617373 /* Pulsing.swift in Sources */,
+				2CEBC12B1E3D188900617373 /* OrderSummaryViewController.swift in Sources */,
+				2CEBC12D1E3D1BA300617373 /* CircularTransition.swift in Sources */,
 				B4D3B51D1E39ED9B004FF175 /* MarketTableViewController.swift in Sources */,
+				2CEBC1351E3D741600617373 /* OnBoardViewController.swift in Sources */,
 				B4D3B51B1E39ED44004FF175 /* ProductCollectionViewController.swift in Sources */,
 				B4D3B51F1E39EDC9004FF175 /* CategoryCollectionViewController.swift in Sources */,
+				2C58A4691E3C20A200CBB583 /* PadTableViewController.swift in Sources */,
 				B4D3B4F21E39ED0A004FF175 /* App_mini_challenge.xcdatamodeld in Sources */,
 				B4D3B4EC1E39ED0A004FF175 /* ViewController.swift in Sources */,
 				B4D3B4EA1E39ED0A004FF175 /* AppDelegate.swift in Sources */,
 				B43CFD9D1E3B43EA007B0DFA /* ObtainLocation.swift in Sources */,
+				2C58A4711E3D0E8F00CBB583 /* PadViewController.swift in Sources */,
+				2CEBC1371E3D759200617373 /* OnboardingView.swift in Sources */,
+				2CEBC13C1E3DAC3300617373 /* SecondTableTableViewController.swift in Sources */,
+				2C58A46F1E3D0C6C00CBB583 /* CheckoutViewController.swift in Sources */,
+				2C58A46D1E3D0A2500CBB583 /* SelectItemsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -456,10 +560,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 48L4492JUG;
+				DEVELOPMENT_TEAM = L7RH25GYY8;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = "App mini challenge/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "con.MarioIOSDev.App-mini-challenge";
+				PRODUCT_BUNDLE_IDENTIFIER = drck.;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -469,10 +577,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 48L4492JUG;
+				DEVELOPMENT_TEAM = L7RH25GYY8;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = "App mini challenge/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "con.MarioIOSDev.App-mini-challenge";
+				PRODUCT_BUNDLE_IDENTIFIER = drck.;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};

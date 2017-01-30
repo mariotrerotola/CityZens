@@ -11,6 +11,8 @@ import UIKit
 private let reuseIdentifier = "Cell"
 
 class CategoryCollectionViewController: UICollectionViewController {
+    
+    let categoryData = ["Fruits","Vegetables","Dairy","Beverages","Frozen","Sauces","Bread","Juices"]
 
     override func viewDidLoad() {
         super.viewDidLoad()

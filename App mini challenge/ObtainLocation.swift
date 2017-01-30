@@ -8,5 +8,7 @@
 
 import Foundation
 import MapKit
+
+
 var managerPosizione: CLLocationManager!
 var posizioneUtente: CLLocationCoordinate2D!
