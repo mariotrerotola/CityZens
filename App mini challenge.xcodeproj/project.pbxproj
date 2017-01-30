@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2C1DA8841E3F787A00A4C38B /* OrderStatusViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C1DA8831E3F787A00A4C38B /* OrderStatusViewController.swift */; };
+		2C1DA8861E3F7CB500A4C38B /* ChecklistTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C1DA8851E3F7CB500A4C38B /* ChecklistTableViewController.swift */; };
+		2C1DA8881E3F83AD00A4C38B /* SecondCheckViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C1DA8871E3F83AD00A4C38B /* SecondCheckViewController.swift */; };
 		2C58A4691E3C20A200CBB583 /* PadTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C58A4681E3C20A200CBB583 /* PadTableViewController.swift */; };
 		2C58A46B1E3C2AC300CBB583 /* introback.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2C58A46A1E3C2AC300CBB583 /* introback.jpg */; };
 		2C58A46D1E3D0A2500CBB583 /* SelectItemsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C58A46C1E3D0A2500CBB583 /* SelectItemsViewController.swift */; };
@@ -75,6 +78,9 @@
 /* Begin PBXFileReference section */
 		053826F3B77DC065361BF1D6 /* Pods-App mini challengeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-App mini challengeTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-App mini challengeTests/Pods-App mini challengeTests.release.xcconfig"; sourceTree = "<group>"; };
 		16E7D8FB2968BBD3D57D8DD0 /* Pods-App mini challenge.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-App mini challenge.debug.xcconfig"; path = "Pods/Target Support Files/Pods-App mini challenge/Pods-App mini challenge.debug.xcconfig"; sourceTree = "<group>"; };
+		2C1DA8831E3F787A00A4C38B /* OrderStatusViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OrderStatusViewController.swift; sourceTree = "<group>"; };
+		2C1DA8851E3F7CB500A4C38B /* ChecklistTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChecklistTableViewController.swift; sourceTree = "<group>"; };
+		2C1DA8871E3F83AD00A4C38B /* SecondCheckViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondCheckViewController.swift; sourceTree = "<group>"; };
 		2C58A4681E3C20A200CBB583 /* PadTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PadTableViewController.swift; sourceTree = "<group>"; };
 		2C58A46A1E3C2AC300CBB583 /* introback.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = introback.jpg; sourceTree = "<group>"; };
 		2C58A46C1E3D0A2500CBB583 /* SelectItemsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectItemsViewController.swift; sourceTree = "<group>"; };
@@ -173,6 +179,9 @@
 				2CEBC1361E3D759200617373 /* OnboardingView.swift */,
 				2CEBC1341E3D741600617373 /* OnBoardViewController.swift */,
 				2CEBC13B1E3DAC3300617373 /* SecondTableTableViewController.swift */,
+				2C1DA8831E3F787A00A4C38B /* OrderStatusViewController.swift */,
+				2C1DA8851E3F7CB500A4C38B /* ChecklistTableViewController.swift */,
+				2C1DA8871E3F83AD00A4C38B /* SecondCheckViewController.swift */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -574,12 +583,14 @@
 				2CEBC12F1E3D662300617373 /* Pulsing.swift in Sources */,
 				2CEBC12B1E3D188900617373 /* OrderSummaryViewController.swift in Sources */,
 				2CEBC12D1E3D1BA300617373 /* CircularTransition.swift in Sources */,
+				2C1DA8841E3F787A00A4C38B /* OrderStatusViewController.swift in Sources */,
 				B4D3B51D1E39ED9B004FF175 /* MarketTableViewController.swift in Sources */,
 				2CEBC1351E3D741600617373 /* OnBoardViewController.swift in Sources */,
 				B4D3B51B1E39ED44004FF175 /* ProductCollectionViewController.swift in Sources */,
 				B4D3B51F1E39EDC9004FF175 /* CategoryCollectionViewController.swift in Sources */,
 				2C58A4691E3C20A200CBB583 /* PadTableViewController.swift in Sources */,
 				B4D3B4F21E39ED0A004FF175 /* App_mini_challenge.xcdatamodeld in Sources */,
+				2C1DA8861E3F7CB500A4C38B /* ChecklistTableViewController.swift in Sources */,
 				B4D3B4EC1E39ED0A004FF175 /* ViewController.swift in Sources */,
 				B4D3B4EA1E39ED0A004FF175 /* AppDelegate.swift in Sources */,
 				B43CFD9D1E3B43EA007B0DFA /* ObtainLocation.swift in Sources */,
@@ -588,6 +599,7 @@
 				2CEBC13C1E3DAC3300617373 /* SecondTableTableViewController.swift in Sources */,
 				2C58A46F1E3D0C6C00CBB583 /* CheckoutViewController.swift in Sources */,
 				2C58A46D1E3D0A2500CBB583 /* SelectItemsViewController.swift in Sources */,
+				2C1DA8881E3F83AD00A4C38B /* SecondCheckViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -55,8 +55,7 @@ class SelectItemsViewController: UIViewController, UICollectionViewDelegate, UIC
         // Do any additional setup after loading the view.
     }
     
-    //start animations
-        //end animations
+     
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()

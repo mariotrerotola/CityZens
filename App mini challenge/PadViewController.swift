@@ -16,12 +16,14 @@ class PadViewController: UIViewController, UITableViewDelegate, UITableViewDataS
     @IBOutlet weak var imageHolder: UIView!
     @IBOutlet weak var imageViewHolder: UIImageView!
     
-    let padData = ["Bringer location","My orders","My Shoplist","Options"]
+    let padData = ["Current order status","My shoplist","My orders","Options"]
+    
+    let padSegues = ["statusVC","checklistsVC","VC3","VC4"]
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        self.navigationController?.isNavigationBarHidden = true
+    
         
         imageHolder.clipsToBounds = true
 
@@ -82,6 +84,19 @@ class PadViewController: UIViewController, UITableViewDelegate, UITableViewDataS
         
         cell?.backgroundColor = UIColor.clear
         return cell!
+    }
+    
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        
+        let vcName = padSegues[indexPath.row]
+        
+        let viewController = storyboard?.instantiateViewController(withIdentifier: vcName)
+        
+        self.navigationController?.pushViewController(viewController!, animated: true)
+        
+        
+        
+
     }
     
     func addPulse(){

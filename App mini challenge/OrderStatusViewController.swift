@@ -1,20 +1,26 @@
 //
-//  OrderSummaryViewController.swift
+//  OrderStatusViewController.swift
 //  App mini challenge
 //
-//  Created by Drck on 28/01/2017.
+//  Created by Drck on 30/01/2017.
 //  Copyright © 2017 Mario Trerotola. All rights reserved.
 //
 
 import UIKit
 
-class OrderSummaryViewController: UIViewController {
+class OrderStatusViewController: UIViewController {
     
     
     
+    @IBOutlet weak var orderStatusView: UIView!
+    
+
+
     override func viewDidLoad() {
         super.viewDidLoad()
+       orderStatusView.layer.cornerRadius = 10
 
+     
         // Do any additional setup after loading the view.
     }
 
@@ -22,15 +28,8 @@ class OrderSummaryViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-
-
-
     
-    @IBAction func dismissActionTwo() {
-        
-        dismiss(animated: true, completion: nil)
-        
-    }
+
     /*
     // MARK: - Navigation
 
