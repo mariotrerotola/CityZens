@@ -36,10 +36,19 @@ class SelectItemsViewController: UIViewController, UICollectionViewDelegate, UIC
         
         self.categoryCollection.delegate = self
         self.categoryCollection.dataSource = self
+        //cell items space in between
         
+        var layout = UICollectionViewFlowLayout()
+        
+        let width = UIScreen.main.bounds.width
+        
+        layout.itemSize = CGSize(width: 122, height: 137)
+        layout.sectionInset = UIEdgeInsets(top: 0, left: 1, bottom: 0, right: 1)
+        layout.minimumInteritemSpacing = 3
+        layout.minimumLineSpacing = 3
+        itemsCollection.collectionViewLayout = layout
         
         viewcartView.layer.cornerRadius = 10
-        
         self.navigationItem.title = "Simply"
         
 
