@@ -8,6 +8,7 @@
 
 import UIKit
 
+//this is circular animation
 class CircularTransition: NSObject {
 
     var circle = UIView()
